@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Output files (contain de-identified data — commit only if intentional)
+survey_anonymous.csv
+survey_openended.csv
+survey_clean.csv
+column_mapping.csv
+
+# Raw survey data — never commit
+new survey.csv
+*.csv
+!example/sample_survey.csv   # keep the demo file
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
